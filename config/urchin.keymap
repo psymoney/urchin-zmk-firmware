@@ -86,11 +86,69 @@
         // left index & middle fingers (home-row)
         // hold control & space for Adobe workflow
 
-        combo_ctrl_space {
-            timeout-ms = <200>;
-            key-positions = <12 13>;
+        control {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <13 12>;
+        };
+
+        control {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <16 17>;
+        };
+
+        shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <12 11>;
+        };
+
+        shift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <17 18>;
+        };
+
+        alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <10 11>;
+        };
+
+        alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <19 18>;
+        };
+
+        control-shift {
+            bindings = <&kp LS(LEFT_CONTROL)>;
+            key-positions = <13 12 11>;
+        };
+
+        control-shift {
+            bindings = <&kp LS(LEFT_CONTROL)>;
+            key-positions = <16 17 18>;
+        };
+
+        mac-lan-layout {
             bindings = <&kp LC(SPACE)>;
-            layers = <BASE>;
+            key-positions = <27 28>;
+        };
+
+        control-alt {
+            bindings = <&kp LA(LEFT_CONTROL)>;
+            key-positions = <13 12 10>;
+        };
+
+        control-alt {
+            bindings = <&kp LA(LEFT_CONTROL)>;
+            key-positions = <16 17 19>;
+        };
+
+        shift-alt {
+            bindings = <&kp LA(LEFT_SHIFT)>;
+            key-positions = <12 11 10>;
+        };
+
+        shift-alt {
+            bindings = <&kp LA(LEFT_SHIFT)>;
+            key-positions = <19 18 17>;
         };
     };
 
