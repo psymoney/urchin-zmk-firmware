@@ -150,6 +150,16 @@
             bindings = <&kp LA(LEFT_SHIFT)>;
             key-positions = <19 18 17>;
         };
+
+        gui_L {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <23 22>;
+        };
+
+        gui_R {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <26 27>;
+        };
     };
 
     keymap {
