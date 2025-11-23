@@ -68,13 +68,6 @@
         };
 
         // internal-left & external-right thumb keys
-
-        combo_sym2 {
-            timeout-ms = <200>;
-            key-positions = <31 33>;
-            bindings = <&mo 4>;
-        };
-
         // both left thumb keys
 
         combo_settings {
@@ -159,11 +152,6 @@
         gui_R {
             bindings = <&kp LEFT_GUI>;
             key-positions = <26 27>;
-        };
-
-        studio_unlock {
-            bindings = <&studio_unlock>;
-            key-positions = <30 31 32 33>;
         };
     };
 
