@@ -153,6 +153,11 @@
             bindings = <&kp LEFT_GUI>;
             key-positions = <26 27>;
         };
+
+        Ralt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <6 7>;
+        };
     };
 
     keymap {
